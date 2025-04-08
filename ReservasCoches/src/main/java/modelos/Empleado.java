@@ -31,6 +31,11 @@ public class Empleado extends Persona{
     public void setEspecialidad(String especialidad) {
         this.especialidad = especialidad;
     }
+
+    @Override
+    public String toString() {
+        return "Empleado{" + "especialidad=" + especialidad + '}';
+    }
     
     
     
